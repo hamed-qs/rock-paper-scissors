@@ -4,7 +4,7 @@ import random
 def game():
     list = ["rock", "paper", "scissors"]
     pc = random.choice(list)
-    print("\n-------------------------------")
+    print("-------------------------------")
     print("ROCK, PAPER, SCISSORS\n")
     you = input("Get 'r' for Rock, 'p' for Paper, 's' for Scissors: ")
     while you.isalpha() == False:
