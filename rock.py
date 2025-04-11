@@ -46,5 +46,5 @@ if command == "y":
 
 
 else:
-    print("\nThanks for playing")
+    print("Thanks for playing")
         
