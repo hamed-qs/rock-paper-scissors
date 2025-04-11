@@ -28,8 +28,10 @@ def game():
         print(f"\nYou rock and pc {pc}. You won\n")
     else :
         print(f"\nYou {pc} and pc {pc}, Draw\n")
-    
+
+
 game()
+
 
 command = input("\nWould you like to play again, 'y' or 'n': ")
 print("\n")
@@ -47,4 +49,3 @@ if command == "y":
 
 else:
     print("Thanks for playing")
-        
